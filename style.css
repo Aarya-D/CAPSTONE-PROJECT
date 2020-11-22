@@ -1,0 +1,213 @@
+body{
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#mainbox{
+    color: black;
+    background-color: white;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: left;
+
+}
+.sidemenu{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 71%;
+    width: 0px;
+    background-color: orange;
+    z-index: 1;
+    padding-top: 100px;
+    overflow-x: hidden;
+
+}
+.sidemenu a{
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+.closebtn{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 66px;
+    margin-left: 32px;
+
+}
+h1,p{
+    text-align: center;
+    color: white;
+}
+
+#poor:hover{
+    cursor:pointer;
+    animation:mymove 2s infinite;
+  }
+  @keyframes mymove{
+    from{color:black;}
+    to{color:crimson; font-size:200%;}
+  }
+    p{
+        display: flex;
+        align-items: flex-end;
+        color: white;
+        }
+        
+
+        #home{
+            background-size: cover;
+        }
+        header{
+            height: 50%;
+        }
+
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        
+        
+        li{
+            color: white;
+        }
+        h2:hover{
+            color: white;
+        }
+
+        #home{
+            background-image: url("https://miro.medium.com/max/4000/0*eYjosrBjE23_wITd.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        body, html {
+            height: 100%;
+            margin: 0;
+            -webkit-font-smoothing: antialiased;
+            font-weight: 100;
+            background: black;
+            text-align: center;
+            font-family: helvetica;
+        }
+         
+        .tabs input[type=radio] {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+        .tabs {
+          width: 550px;
+          float: none;
+          list-style: none;
+          position: relative;
+          padding: 0;
+          margin: 75px auto 0;
+        }
+        .tabs li{
+          float: left;
+        }
+        .tabs label {
+            display: block;
+            padding: 10px 20px;
+            border-radius: 5px 5px 0 0;
+            color: white;
+            font-size: 24px;
+            font-weight: normal;
+            font-family: 'Lily Script One', helveti;
+            background: rgba(255,255,255,0.2);
+            cursor: pointer;
+            position: relative;
+            top: 3px;
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+        }
+        .tabs label:hover {
+          background: rgba(255,255,255,0.5);
+          top: 0;
+        }
+         
+        [id^=tab]:checked + label {
+          background: white;
+          color: black;
+          top: 0;
+        }
+         
+        [id^=tab]:checked ~ [id^=tab-content] {
+            display: block;
+        }
+        .tab-content{
+          z-index: 2;
+          display: none;
+          text-align: left;
+          width: 94%;
+          font-size: 20px;
+          line-height: 140%;
+          padding-top: 10px;
+          background: grey;
+          padding: 15px;
+          color: white;
+          position: absolute;
+          top:44px;
+          left: 0;
+          box-sizing: border-box;
+          -webkit-animation-duration: 0.5s;
+          -o-animation-duration: 0.5s;
+          -moz-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+        
+        }
+        .c{
+            background-color: white;
+            height: 100%;
+        }
+        .image{
+            position: absolute;
+            width: 28%;
+           height: 43%;
+           top: 130%;
+           
+        }
+        .I{
+            position: absolute;
+            width: 28%;
+            height: 43%;
+            top: 130%;
+            right: 1%;
+        }
+        #country{
+          background-color: white;
+        }
+        #world{
+           color: black;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        li,#para{
+            color: black;
+            text-align: left;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-decoration: none;
+        }
+        .abot{
+            color: white;
+        }
+        #whit{
+            color: white;
+        }
+        body{
+            flex-direction: column;
+        }
+
+  
+  
